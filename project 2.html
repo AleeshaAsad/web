@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic website</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       body{
+            background-image:url(makeup.jpg) ;
+            background-size: 1000px;
+            background-attachment: fixed;
+            background-position: absolute;
+       
+            
+           color: white;
+           font-family: 'Baloo Bhai' , cursive;
+           font-size: 15px;
+           margin: 12px;
+           padding: 0px;
+           
+          }
+          .left{
+        
+            margin: 5px;
+            /* border: 12px solid green; */
+            width: 5%;
+            display: inline-block;
+            position: absolute;
+        }
+        /* .left img{
+            width: 90px;
+           position: absolute;
+           top: 1px;
+        } */
+        .left img{
+    width: 100px;
+    height: 63px;
+   
+position: relative;
+
+  } /
+        .left h1{
+            /* text-align: center; */
+            font-size: 15px;
+            font-family:  'Times New Roman' , cursive;
+            /* position: absolute;
+            margin-bottom: 20px;margin-right: 23px ; */
+            line-height: 20px;
+            
+        } 
+   
+     .mid{
+        
+     /* for center */
+     /* border: 5px solid black; */
+       text-align: center; 
+        display: block;
+       margin: 5px auto;
+    padding-bottom: 50px;
+    width: 45%;
+   }
+   .right{
+    /* border: 2px solid black; */
+    top: 15px;
+  right: 70px;
+  
+  
+   position: absolute;
+
+   color: black;
+    
+   
+    
+   }
+     .navbar{
+         margin: 34px;
+     }
+     .navbar li{
+         display: inline-block;
+        font-size: 15px;
+      }
+     .navbar li a{
+      padding: 20px 5px;
+      text-decoration: none;
+      color: white;
+ }
+ .navbar li a:hover{
+    font-size: 24px;
+    text-decoration: underline;
+    color: aqua;
+ } 
+
+.container h1{
+     text-align: center;
+     font-size: 15px;
+
+}
+.container{
+  
+ /* border: 2px solid black; */
+padding: 23px;
+ margin: 23px ;
+ width: 250px;
+ border-radius: 28px;
+
+
+   }
+   .form input{
+    border-radius: 4px; 
+    display: block;
+    margin:8px auto ;
+ padding: 2px;
+ box-sizing: border-box;
+ padding-block:2px;
+ position: relative;
+ 
+ 
+   }
+ 
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+             <img src="logo.png"  alt="" > 
+             <center><b>Girly</b></center>
+                       
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+   <li> <a href="#">Home </a></li>
+    <li><a href="#">About us </a></li>
+   <li> <a href="#">Contact us</a></li>
+   <li> <a href="#">Details</a></li></ul>
+</div>
+   <div class="right">
+   
+    <button class="btn">Call us</button>
+    <button class="btn">Email us</button>
+
+   </div>
+</header>
+    </div>
+    <div class="container">
+       <h1> Join our Platform</h1>
+       <form action="">
+       <div class="form">
+        <input type="text" placeholder="Enter your Name"></div>
+        <div class="form"><input type="text" placeholder="Enter your Qualification"></div>
+        <div class="form"> <input type="text" placeholder="Enter Your Gender"></div>
+        <div class="form"> <input type="text" placeholder="Enter Your nationality">
+         <div><input type="submit" value="Submit"></div>
+         </div>
+    
+     </div>
+    </form>
+</body>
+</html>
